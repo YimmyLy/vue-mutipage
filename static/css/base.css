@@ -1,0 +1,1271 @@
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    nav,
+    section,
+    summary {
+        display: block;
+    }
+    
+    body,
+    dl,
+    dt,
+    dd,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    pre,
+    code,
+    form,
+    fieldset,
+    legend,
+    input,
+    button,
+    textarea,
+    p,
+    blockquote,
+    th,
+    td,
+    figure,
+    div {
+        margin: 0;
+        padding: 0;
+        -webkit-touch-callout: none;
+        -moz-touch-callout: none;
+        -ms-touch-callout: none;
+        touch-callout: none;
+        -webkit-touch-callout: none;
+        /*系统默认菜单被禁用*/
+        -webkit-user-select: none;
+        /*webkit浏览器*/
+        -khtml-user-select: none;
+        /*早期浏览器*/
+        -moz-user-select: none;
+        /*火狐*/
+        -ms-user-select: none;
+        /*IE10*/
+        user-select: none;
+    }
+    
+    body {
+        font-family: 'PingFangSC-Light', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', 'Helvetica', 'SimHei', tahoma, arial, 'Microsoft YaHei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', \5FAE\8F6F\96C5\9ED1, \5B8B\4F53, sans-serif;
+        color: #222;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    address,
+    caption,
+    cite,
+    code,
+    dfn,
+    em,
+    th,
+    var,
+    optgroup {
+        font-style: normal;
+        font-weight: 400;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 100%;
+        font-weight: normal;
+    }
+    
+    abbr,
+    acronym {
+        border: 0 none;
+        font-variant: normal;
+    }
+    
+    input,
+    button,
+    textarea,
+    select,
+    optgroup,
+    option {
+        font-family: inherit;
+        font-size: 100%;
+        font-style: inherit;
+        font-weight: inherit;
+    }
+    
+    code,
+    kbd,
+    samp,
+    tt,
+    input,
+    button,
+    textarea,
+    select {
+        font-size: 100%;
+    }
+    
+    ul,
+    li {
+        list-style: none;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    sup,
+    sub {
+        font-size: 100%;
+        vertical-align: baseline;
+    }
+    
+    blockquote,
+    q {
+        quotes: none;
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+    }
+    
+    input::-webkit-input-placeholder,
+    textarea::-webkit-input-placeholder {
+        color: #89959f;
+    }
+    
+    input:-moz-placeholder,
+    textarea:-moz-placeholder {
+        color: #89959f;
+        opacity: 1;
+    }
+    
+    input::-moz-placeholder,
+    textarea::-moz-placeholder {
+        color: #89959f;
+        opacity: 1;
+    }
+    
+    input:-ms-input-placeholder,
+    textarea:-ms-input-placeholder {
+        color: #89959f !important;
+    }
+    
+    input:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0px 1000px white inset;
+    }
+    
+    button,
+    html input[type=button],
+    input[type=reset],
+    input[type=submit] {
+        -webkit-appearance: button;
+        cursor: pointer;
+    }
+    
+    button {
+        overflow: visible;
+    }
+    
+    * {
+        -webkit-touch-callout: none;
+        /*系统默认菜单被禁用*/
+        /*-webkit-user-select:none;
+    -khtml-user-select:none;   
+    -moz-user-select:none;   
+    -ms-user-select:none;   
+    user-select:none;*/
+        -webkit-user-select: text;
+        /*webkit浏览器*/
+        -khtml-user-select: text;
+        /*早期浏览器*/
+        -moz-user-select: text;
+        /*火狐*/
+        -ms-user-select: text;
+        /*IE10*/
+        user-select: text;
+    }
+    
+    a,
+    input,
+    button,
+    select,
+    textarea {
+        outline: none;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+        -webkit-appearance: none;
+        -webkit-user-select: auto;
+    }
+    
+    em,
+    i {
+        font-style: normal;
+    }
+    
+    .b {
+        font-weight: 700;
+    }
+    /*b{font-weight: normal;}*/
+    
+    fieldset,
+    img {
+        border: 0 none;
+    }
+    
+    img {
+        vertical-align: middle;
+    }
+    
+    a {
+        color: #444;
+        background: transparent;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    }
+    
+    a:active,
+    a:hover {
+        outline: 0 none;
+    }
+    
+    a,
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .a_unline {
+        border: none !important;
+        text-decoration: none;
+    }
+    
+    a.borderRad58 img,
+    a.marAuto img {
+        width: 100%;
+    }
+    
+     :focus {
+        outline: 0 none;
+    }
+    /*a:hover{color:#0087cf;}*/
+    
+    .clearfix {
+        zoom: 1;
+        clear: both;
+    }
+    
+    .clearfix:before,
+    .clearfix:after,
+    .content:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+    
+    .ms-controller {
+        visibility: hidden;
+    }
+    /*[ms-controller]{display:none;}*/
+    
+    .noUnline {
+        border: none !important;
+        text-decoration: none !important;
+    }
+    
+    .clearFloat {
+        overflow: hidden;
+    }
+    
+    .fl {
+        float: left;
+    }
+    
+    .fr {
+        float: right;
+    }
+    
+    input,
+    button,
+    select {
+        background: no-repeat 0 0 scroll;
+        border: none;
+        outline: medium;
+    }
+    
+    .hidden {
+        display: none !important;
+    }
+    
+    .show {
+        display: block !important;
+    }
+    
+    .posHide {
+        visibility: hidden;
+    }
+    
+    .inline {
+        display: inline-block;
+    }
+    
+    .cursor {
+        cursor: pointer;
+    }
+    
+    .shenglue {
+        width: 96%;
+        word-break: keep-all;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    .noBorder {
+        border: none !important;
+    }
+    
+    .noLastBd:last-child {
+        border: none;
+    }
+    
+    .flexCenter {
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .flexWrap {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .centerAlign {
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+    }
+    
+    .flexFlow {
+        flex-flow: row nowrap;
+    }
+    
+    .flexFlowWrap {
+        flex-flow: row wrap;
+    }
+    
+    .flexFlowWrapReverse {
+        flex-flow: row wrap-reverse;
+    }
+    
+    .flexFlowCol {
+        flex-flow: column;
+    }
+    
+    .alignItem {
+        align-items: center;
+    }
+    
+    .justifyContentCt {
+        justify-content: center;
+    }
+    
+    .justifyContentBt {
+        justify-content: space-between;
+    }
+    
+    .justifyContentAd {
+        justify-content: space-around;
+    }
+    
+    .justifyContentEnd {
+        justify-content: flex-end;
+    }
+    
+    .flexDCol {
+        flex-direction: column;
+    }
+    
+    .flex {
+        flex: 1;
+    }
+    /*背景色*/
+    
+    body,
+    .bgColor {
+        background: #F4F8FC;
+    }
+    
+    .bg-main {
+        background: #28BD61;
+    }
+    
+    .bgf {
+        background: #fff;
+    }
+    
+    .pWord {
+        word-break: break-all;
+    }
+    /*iphonex*/
+    
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+    }
+    /*配色*/
+    
+    .mainColor {
+        color: #222;
+    }
+    
+    .subColor {
+        color: #28BD61;
+    }
+    
+    .colorA1 {
+        color: #5F6267;
+    }
+    
+    .color8c {
+        color: #9399A4;
+    }
+    /*辅助字颜色*/
+    
+    .colorf70 {
+        color: #ff7300;
+    }
+    
+    .colorFF {
+        color: #fff;
+    }
+    /*字体大小*/
+    
+    .fs1 {
+        font-size: 0.8rem;
+    }
+    
+    .fs2 {
+        font-size: 0.9rem;
+    }
+    
+    .fs3 {
+        font-size: 1rem;
+    }
+    
+    .fs4 {
+        font-size: 1.1rem;
+    }
+    
+    .fs5 {
+        font-size: 1.2rem;
+    }
+    
+    .fs6 {
+        font-size: 1.3rem;
+    }
+    
+    .fs7 {
+        font-size: 1.4rem;
+    }
+    
+    .fs8 {
+        font-size: 1.5rem;
+    }
+    
+    .fs9 {
+        font-size: 1.6rem;
+    }
+    
+    .fs10 {
+        font-size: 1.7rem;
+    }
+    
+    .fs11 {
+        font-size: 1.8rem;
+    }
+    
+    .fs2rem {
+        font-size: 2rem;
+    }
+    
+    .fs13 {
+        font-size: 2.2rem;
+    }
+    
+    .fs14 {
+        font-size: 2.5rem;
+    }
+    
+    .fs15 {
+        font-size: 3.2rem;
+    }
+    /*居中*/
+    
+    .txtLeft {
+        text-align: left;
+    }
+    
+    .txtCenter {
+        text-align: center;
+    }
+    
+    .txtRight {
+        text-align: right;
+    }
+    /*缩进*/
+    /*定位相关*/
+    
+    .fixed {
+        position: fixed;
+    }
+    
+    .poRel {
+        position: relative;
+    }
+    
+    .poAbs {
+        position: absolute;
+        z-index: 1;
+    }
+    /*padding的值*/
+    
+    .noPad {
+        padding: 0;
+    }
+    
+    .padBoth {
+        padding: 0 1rem;
+    }
+    
+    .padTopBoth {
+        padding: 1rem 0;
+    }
+    
+    .padTopBoth1 {
+        padding: 1.5rem 0;
+    }
+    
+    .padAll1 {
+        padding: 1rem;
+    }
+    
+    .padBoth1 {
+        padding: 1.2rem 1rem;
+    }
+    
+    .padBoth2 {
+        padding: 0 2rem;
+    }
+    
+    .padBoth4 {
+        padding: 0 4px;
+    }
+    
+    .padL1 {
+        padding-left: 1rem;
+    }
+    
+    .padR1 {
+        padding-right: 1rem;
+    }
+    
+    .padL10 {
+        padding-left: 10px;
+    }
+    
+    .padL16 {
+        padding-left: 16px;
+    }
+    
+    .padR2 {
+        padding-right: 2px;
+    }
+    
+    .padR5 {
+        padding-right: 5px;
+    }
+    
+    .padR10 {
+        padding-right: 10px;
+    }
+    
+    .padR15 {
+        padding-right: 15px;
+    }
+    
+    .padT2 {
+        padding-top: 2px;
+    }
+    
+    .padT5 {
+        padding-top: 5px;
+    }
+    
+    .padT8 {
+        padding-top: 8px;
+    }
+    
+    .padT10 {
+        padding-top: 10px;
+    }
+    
+    .padT15 {
+        padding-top: 15px;
+    }
+    
+    .padT20 {
+        padding-top: 20px;
+    }
+    
+    .padT6r {
+        padding-top: 6rem;
+    }
+    
+    .padB5 {
+        padding-bottom: 5px;
+    }
+    
+    .padB10 {
+        padding-bottom: 10px;
+    }
+    
+    .padB15 {
+        padding-bottom: 15px;
+    }
+    
+    .padB20 {
+        padding-bottom: 20px;
+    }
+    
+    .padB30 {
+        padding-bottom: 30px;
+    }
+    
+    .padB40 {
+        padding-bottom: 40px;
+    }
+    
+    .padL44 {
+        padding-left: 2.2rem;
+    }
+    
+    .padL10 {
+        padding-left: 10px;
+    }
+    
+    .padL32 {
+        padding-left: 1.6rem;
+    }
+    
+    .padB60 {
+        padding-bottom: 60px;
+    }
+    
+    .padB70 {
+        padding-bottom: 70px;
+    }
+    
+    .padB80 {
+        padding-bottom: 80px;
+    }
+    
+    .fixPadT {
+        padding-top: 48px !important;
+    }
+    /*margin值*/
+    
+    .marBoth {
+        margin: 0 1rem;
+    }
+    
+    .marT2 {
+        margin-top: 2px;
+    }
+    
+    .marT3 {
+        margin-top: 3px;
+    }
+    
+    .marT5 {
+        margin-top: 5px;
+    }
+    
+    .marT6 {
+        margin-top: 0.3rem;
+    }
+    
+    .marT8 {
+        margin-top: 8px;
+    }
+    
+    .marT10 {
+        margin-top: 10px;
+    }
+    
+    .marT15 {
+        margin-top: 15px;
+    }
+    
+    .marT20 {
+        margin-top: 20px !important;
+    }
+    
+    .marT25 {
+        margin-top: 25px !important;
+    }
+    
+    .marT30 {
+        margin-top: 30px;
+    }
+    
+    .marT35 {
+        margin-top: 35px;
+    }
+    
+    .marT45 {
+        margin-top: 45px;
+    }
+    
+    .marT60 {
+        margin-top: 60px;
+    }
+    
+    .marT138 {
+        margin-top: 138px;
+    }
+    
+    .marB1 {
+        margin-bottom: 1px;
+    }
+    
+    .marB3 {
+        margin-bottom: 3px;
+    }
+    
+    .marB5 {
+        margin-bottom: 5px;
+    }
+    
+    .marB8 {
+        margin-bottom: 8px;
+    }
+    
+    .marB10 {
+        margin-bottom: 10px;
+    }
+    
+    .marB15 {
+        margin-bottom: 15px;
+    }
+    
+    .marB20 {
+        margin-bottom: 20px;
+    }
+    
+    .marB30 {
+        margin-bottom: 30px;
+    }
+    
+    .marB35 {
+        margin-bottom: 35px;
+    }
+    
+    .marB48 {
+        margin-bottom: 48px;
+    }
+    
+    .marB60 {
+        margin-bottom: 60px;
+    }
+    
+    .marR2 {
+        margin-right: 2px;
+    }
+    
+    .marR5 {
+        margin-right: 5px;
+    }
+    
+    .marR10 {
+        margin-right: 10px;
+    }
+    
+    .marR15 {
+        margin-right: 15px;
+    }
+    
+    .marR20 {
+        margin-right: 20px;
+    }
+    
+    .marR30 {
+        margin-right: 30px;
+    }
+    
+    .marR40 {
+        margin-right: 40px;
+    }
+    
+    .marL2 {
+        margin-left: 2px;
+    }
+    
+    .marL5 {
+        margin-left: 5px;
+    }
+    
+    .marL8 {
+        margin-left: 8px;
+    }
+    
+    .marL10 {
+        margin-left: 10px;
+    }
+    
+    .marL1R {
+        margin-left: 1rem;
+    }
+    /*边框*/
+    
+    .borderNone {
+        border: none !important;
+    }
+    
+    .borderBottom4 {
+        border-bottom: 1px solid #eee;
+    }
+    
+    .borderTop4 {
+        border-top: 1px solid #eee;
+    }
+    
+    .noScrollY::-webkit-scrollbar {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+    
+    .backIcon {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 5rem;
+        height: 4rem;
+        margin-top: 10px;
+        background: url(../img/backicon.png) no-repeat 2rem 50%;
+        background-size: 1.5rem;
+        text-indent: -99999px;
+    }
+    /*淡入淡出效果*/
+    
+    .moveToZooIn {
+        -webkit-animation: moveToZooIn .3s ease-in-out both;
+        animation: moveToZooIn .3s ease-in-out both
+    }
+    
+    .moveToReduce {
+        -webkit-animation: moveToReduce .3s ease-in-out both;
+        animation: moveToReduce .3s ease-in-out both
+    }
+    
+    @keyframes moveToZooIn {
+        0% {
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    @-webkit-keyframes moveToZooIn {
+        0% {
+            -webkit-transform: scale(0);
+        }
+        100% {
+            -webkit-transform: scale(1);
+        }
+    }
+    
+    @keyframes moveToReduce {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(0);
+        }
+    }
+    
+    @-webkit-keyframes moveToReduce {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(0);
+        }
+    }
+    /*-----加载更多gif----*/
+    
+    .loadMore .more {
+        display: block;
+        width: 100%;
+        height: 2.5rem;
+        background: url(../../src/assets/img/jiazai51.gif) no-repeat center center;
+        background-size: 1.5rem 1.5rem;
+    }
+    /*-------------头部名称---------------*/
+    
+    body {
+        min-width: 320px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    body,
+    .fixed {
+        width: 100%;
+        max-width: 640px;
+        margin: 0 auto;
+        color: #222;
+        z-index: 99;
+    }
+    
+    .header {
+        height: 48px;
+        line-height: 48px;
+        background: #fff;
+        color: #222;
+        top: 0;
+        /* 标题栏固定在最上层 */
+        z-index: 100;
+        /* border-bottom: 1px solid #f5f5f5;  */
+    }
+    
+    .header h1 img {
+        width: 100px;
+        margin-top: 6px;
+    }
+    
+    .header a {
+        text-indent: -99999rem;
+        position: absolute;
+        width: 45px;
+        height: 48px;
+        background: url(../img/icon1-1.png) no-repeat 50% 50%;
+        background-size: 2.3rem 2.3rem;
+        z-index: 10;
+        right: 0rem;
+        /* top: 0rem; */
+        bottom: 0;
+    }
+    
+    .header .back {
+        left: 0px;
+        background: url(../../src/assets/img/back_black.png) no-repeat center center;
+        background-size: 20px auto;
+        margin-top: 0;
+    }
+    
+    .header .whiteBack {
+        background: url(../../src/assets/img/back_white.png) no-repeat center center;
+        background-size: 20px auto;
+    }
+    
+    .header .share {
+        right: 0px;
+        background: url(../../src/assets/img/share.png) no-repeat center center;
+        background-size: 20px 20px;
+        margin-top: 0;
+        bottom: 0;
+    }
+    
+    .header .whiteShare {
+        background: url(../../src/assets/img/share_white.png) no-repeat center center;
+        background-size: 20px 20px;
+    }
+    
+    .header .search {
+        right: 0px;
+        background: url(../../src/assets/img/search.png) no-repeat center center;
+        background-size: 19px 19px;
+        margin-top: 0;
+        bottom: 0;
+    }
+    
+    .header .noIcon {
+        right: 5px;
+        background: none;
+        text-indent: 0;
+        color: #fff;
+        bottom: 0;
+    }
+    /* 与native 标题大小一致 */
+    
+    .header .fs8 {
+        font-size: 20px !important;
+    }
+    
+    .hasStatusBar {
+        padding-top: 44px;
+    }
+    /*右箭头*/
+    
+    .arrowRIcon {
+        padding-right: 1.5rem;
+        position: relative;
+    }
+    
+    .arrowRIcon::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1rem;
+        height: 100%;
+        background: url(../img/icon22.png) no-repeat 0 48%;
+        background-size: 6px;
+    }
+    
+    .iconD {
+        padding-right: 1.5rem;
+        position: relative;
+    }
+    /* 向下箭头 */
+    
+    .iconD::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../img/hpmxx_icon.png) no-repeat 100% 50%;
+        background-size: 1.2rem;
+    }
+    /* 向下箭头旋转180deg => 向上箭头 */
+    
+    .iconU::after {
+        -webkit-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+        -webkit-transform-origin: 70% 50%;
+        transform-origin: 70% 50%;
+    }
+    /* 文字左右线 */
+    
+    .lineTitle {
+        position: relative;
+        text-align: center;
+    }
+    
+    .lineTitle::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0.9rem;
+        width: 30%;
+        height: 1px;
+        font-size: 0;
+        zoom: 1;
+        background: #CBD4DD;
+    }
+    
+    .lineTitle::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0.9rem;
+        width: 30%;
+        height: 1px;
+        font-size: 0;
+        zoom: 1;
+        background: #CBD4DD;
+        right: 0rem;
+    }
+    /* 返回顶部 */
+    
+    .goTop {
+        position: fixed;
+        bottom: 4rem;
+        right: 1rem;
+        font-size: 1rem;
+        color: #8b91a3;
+        z-index: 2;
+    }
+    
+    .goTop .goTopInn {
+        width: 3rem;
+        text-align: center;
+        padding-top: 3.2rem;
+        background: url(../img/top.png) no-repeat 50% 0;
+        background-size: 2.8rem 2.8rem;
+        text-indent: -99999px;
+    }
+    /*iphoneX适配*/
+    /* 只带时间状态栏 */
+    
+    .has-topbar-statusbar {
+        padding-top: 22px;
+        background: #28BD61;
+    }
+    
+    .fixPadT {
+        padding-top: 48px;
+    }
+    
+    .hasBar-fixPadT {
+        /* fixPadT(48)  + has-topbar-statusbar(22)*/
+        padding-top: 80px;
+    }
+    
+    @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+        /* 全屏时状态栏默认高度 */
+        .statusBarHeight {
+            padding-top: 44px;
+        }
+        /* 只带时间状态栏 */
+        .has-topbar-statusbar {
+            padding-top: 40px;
+        }
+        .hasBar-fixPadT {
+            /* fixPadT(48)  + has-topbar-statusbar(40)*/
+            padding-top: 90px;
+        }
+        /*增加头部适配层*/
+        .has-topbar {
+            height: 100%;
+            box-sizing: border-box;
+            padding-top: 44px;
+            &:before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 44px;
+                background-color: #000000;
+                z-index: 9998;
+            }
+        }
+        /*增加底部适配层*/
+        .has-bottombar {
+            height: 100%;
+            box-sizing: border-box;
+            padding-bottom: 34px;
+            &:after {
+                content: '';
+                z-index: 9998;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 34px;
+                background: #f7f7f8;
+            }
+        }
+        .has-bottombar .padB60 {
+            padding-bottom: 88px;
+        }
+        .fixPadB8 {
+            padding-bottom: 8rem;
+        }
+        /*导航操作栏上移*/
+        .bottom-menu-fixed {
+            padding-bottom: 34px !important;
+            background: #f7f7f8;
+        }
+    }
+    /* 隐藏滚动条 */
+    /* 父元素 overflow：hidden */
+    /* *::-webkit-scrollbar{
+    padding-right: 100px;
+} */
+    /* 展示两行 */
+    
+    .lineClamp {
+        width: 100%;
+        display: -webkit-box;
+        overflow: hidden;
+        white-space: normal !important;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        word-break: break-all;
+        -webkit-line-clamp: 1;
+        /*! autoprefixer: ignore next */
+        -webkit-box-orient: vertical;
+    }
+    
+    .lineClamp2 {
+        -webkit-line-clamp: 2;
+    }
+    
+    .lineClamp3 {
+        -webkit-line-clamp: 3;
+    }
+    
+    .lineClamp4 {
+        -webkit-line-clamp: 4;
+    }
+    
+    .ellipsis {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    
+    .font-Medium {
+        font-family: PingFangSC-Medium;
+    }
+    
+    .headerWrap {
+        height: 48px;
+    }
+    
+    .footerWrap {
+        position: relative;
+        height: 48px;
+    }
+    
+    .footerCon {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 48px;
+        background: #fff;
+    }
+    
+    .hasBottombar,
+    .hasBottombar .footerCon {
+        height: 68px;
+    }
+    
+    .hasBottombar .footerRight,
+    .hasBottombar .footerLeft {
+        padding-bottom: 20px;
+    }
