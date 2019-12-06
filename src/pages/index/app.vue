@@ -1,6 +1,6 @@
 <template>
   <div id="app" v-cloak>
-    汉麻工场
+    vue-多页面配置
   </div>
 </template>
 <script>
